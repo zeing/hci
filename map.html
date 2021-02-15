@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>HCI BY EING</title>
+    <link href="jquery-ui.min.css" rel="stylesheet">
+	<link href="main.css" rel="stylesheet">
+    <script src="./jquery.js"></script>
+    <script src="./jquery-ui.min.js"></script>
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+    <div id="map"></div>
+    <div id="save_data" title="Add" style="display:none" >
+      <textarea name="addr_map" id="addr_map" rows="10" placeholder="Description for emergency traffic." style="width:98%"></textarea>
+      <input type="file" id="pic_map" name="pic_map" style="width:95%" lang="en"/>
+	  <label for="pic_map" id="pic_map_btn">
+		<div id="filename">Choose a file</div>
+	  </label>
+	  <button id="del_pic_map_btn" style="display:none">&nbsp;</button>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlHOxaniZev5xpVq51hpEzN2n2gj7kbHs&libraries=places&callback=initAutocomplete"
+         async defer></script>
+  </body>
+</html>

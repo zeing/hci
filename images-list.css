@@ -1,0 +1,28 @@
+.uploadfile-list-sort {
+	line-height: 106px;
+    float: left;
+    margin: 8px;
+    background-color: #d2e7f9;
+	border: solid 1px #adc6db;
+	display: table;
+	text-align: center;
+	position: relative;	
+}
+
+.uploadfile-list {
+	line-height: 106px;
+    float: left;
+    margin: 8px;
+    background-color: #FFF;
+	border: solid 1px #DDD;
+	display: table;
+	text-align: center;
+	position: relative;
+}
+						
+.uploadfile-list img , .uploadfile-list span {
+	vertical-align: middle;
+	max-height: 102px;
+	max-width: 102px;
+	z-index: 1;
+}

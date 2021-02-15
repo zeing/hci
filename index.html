@@ -1,0 +1,167 @@
+<!DOCTYPE>
+<html><!-- InstanceBegin template="/Templates/_master.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>HCI</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="./THEA_files/jquery.fancybox.css" type="text/css" media="screen">
+<link href="./THEA_files/thea.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" async="" src="./THEA_files/ga.js"></script><script type="text/javascript" src="./THEA_files/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="./THEA_files/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="./THEA_files/jquery.cookie.js"></script>
+<script type="text/javascript" src="./THEA_files/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="./THEA_files/jquery.fancybox-media.js"></script>
+<script type="text/javascript" src="./THEA_files/global.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="./THEA_files/emergency.png">
+
+
+
+ <link href="jquery-ui.min.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+    <script src="./jquery.js"></script>
+    <script src="./jquery-ui.min.js"></script>
+    <script src="./main.js"></script>
+
+<!--
+Developed by
+IC Web Co.,Ltd.
+The Design Consultancy
+http://www.icweb.co.th
+-->
+
+<!--Google Analytics - Start-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39064128-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--Google Analytics - End--> 
+
+<!-- InstanceBeginEditable name="head" -->
+<script>
+$(document).ready(function(){
+	$('[placeholder]').focus(function() {
+	  var input = $(this);
+	  if (input.val() == input.attr('placeholder')) {
+		input.val('');
+		input.removeClass('placeholder');
+	  }
+	}).blur(function() {
+	  var input = $(this);
+	  if (input.val() == '' || input.val() == input.attr('placeholder')) {
+		input.addClass('placeholder');
+		input.val(input.attr('placeholder'));
+	  }
+	}).blur();
+});
+</script>
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<div id="container">
+<header>
+    	<div class="innerHead">
+        	<div class="logo" ><a href="index.html"><img src="THEA_files/logo.jpg" ></a></div>
+            <div class="right">
+            
+             </div>
+            <div id="navMain">
+            	<ul>
+                	<li><a href="WEB_2/map.html" class="red">Map</a></li>
+                    
+                    <li><a href="emergencycall.html" >Emergency Call</a></li>
+                    
+                    <li class="last"><a href="">contact us</a></li>
+                </ul>
+            </div>
+           
+   	  </div>
+</header>
+  <div class="clearAll"></div><!-- InstanceBeginEditable name="mainContent" -->
+  <div class="container">
+<div id="bodyContent">
+    <div class="block-1">
+      <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+      <div id="map" ></div>
+      <div id="save_data" title="Add" style="display:none" >
+        <textarea name="addr_map" id="addr_map" rows="10" placeholder="Description for emergency traffic." style="width:98%"></textarea>
+        <input type="file" id="pic_map" name="pic_map" style="width:95%" lang="en"/>
+        <label for="pic_map" id="pic_map_btn">
+          <div id="filename">Choose a file</div>
+        </label>
+        <button id="del_pic_map_btn" style="display:none">&nbsp;</button>
+      </div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlHOxaniZev5xpVq51hpEzN2n2gj7kbHs&libraries=places&callback=initAutocomplete"
+      async defer></script>
+    </div>
+    <div class="block-2" >
+      <center> <h2>Timeline</h2></center>
+        <div style="height:90%;width:350px;overflow:auto; overflow-x: hidden;">
+          <ul>
+          <li>
+          <b><center> วันนี้, 06:51น.<br></center></b>
+วันที่ 29 มีนาคม ถึง 28 เมษายน 2559 ปิดเบี่ยงจราจรบนถนนรัชดาภิเษก บริเวณปากซอยรัชดาภิเษก 46/1 ถึง แยกรัชโยธิน เพื่อดำเนินการก่อสร้างเพื่อเพิ่มพื้นผิวจราจร ฝั่งขาเข้าอีก 1 ช่องทาง
+          </li>
+            <hr>
+            <li>
+  <b><center> วันนี้, 06:34น.<br></center></b>
+  สะพานข้ามแยกรามคำแหง ขาเข้า รถแท็กซี่จอดเสียเหนือแยกรามคำแหง จอดขวางช่องทางขวา การจราจรชะลอตัว
+          </li>
+            <hr>
+            <li>
+<b><center> วันนี้, 06:26น.<br></center></b>
+  อุบัติเหตุ ถนนพระราม 6 ขาเข้า จากโรงกรองน้ำสามเสนมุ่งหน้าแยกตึกชัย ตรงข้ามอาคารทิปโก้ รถจักรยานยนต์ชนกัน 2 คัน บาดเจ็บ 1 คน ขวางช่องทางกลาง
+          </li>
+            <hr>
+            <li>
+<b><center> วันนี้, 06:19น.<br></center></b>
+  ปิดการจราจรบนสะพานข้ามแยกแครายมุ่งหน้าแยกพงษ์เพชรชั่วคราว เพื่อเคลื่อนย้ายอุบัติเหตุรถชนกันรุนแรงกลางสะพาน การจราจรติดขัดมาก
+          </li>
+            <hr>
+            <li>
+<b><center> วันนี้, 06:16.<br></center></b>
+  อุบัติเหตุ ถนนวงแหวนตะวันตก ขาออก จากต่างระดับเอกชัยมุ่งหน้าต่างระดับบางโคลัด ตรงข้ามโรงเรียนเลิศหล้าถนนกาญจนาภิเษก รถพ่วง18ล้อชนกัน 2 คัน ขวางช่องทางซ้ายของทางคู่ขนาน
+          </li>
+            <hr>
+            <li>
+<b><center> วันนี้, 06:04น.<br></center></b>
+  อุบัติเหตุ ถนนเพชรบุรี ขาเข้า จากแยกพระราม9มุ่งหน้าแยกเอกมัย กลางแยกเอกมัย รถปิคอัพชนกับรถจักรยานยนต์ บาดเจ็บ 1 คน ขวางช่องทางซ้าย
+          </li>
+            <hr>
+          </ul>
+
+        </div>
+      
+    </div>
+
+  
+</div>
+
+<!-- InstanceEndEditable -->   
+<footer>
+    	<div class="innerFooter">
+        	<div class="left copyright">Copyright 2016  HCI.    </div>
+            <div class="navFooter">
+            	<ul>
+                    <li><a href=""></a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li class="enew">E-newsletter : <input name="f_enew" type="text" id="f_enew" placeholder="Subscribe for our E-newsletter" class="boxEnew" onclick="this.value='';" /> <a href="javascript:" id="btsubmitenew" class="bttnGo">Subscribe</a></li>
+                    <li class="last share"><a href="" target="_blank"><img src="http://www.theabythara.com/common/img/ico-fb.jpg"/></a> <a href="" target="_blank"><img src="http://www.theabythara.com/common/img/ico-pinterest.jpg"/></a> <a href="" target="_blank"><img src="http://www.theabythara.com/common/img/ico-ig.png" width="17"/></a></li>
+                </ul>
+                
+
+            </div>
+        </div>
+</footer></div>
+</body>
+<!-- InstanceEnd --></html>

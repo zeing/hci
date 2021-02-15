@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="shortcut icon" type="image/x-icon" href="./images/emergency.png">
+        <link href="./main_new.css" rel="stylesheet" type="text/css">
+
+        <link href="jquery-ui.min.css" rel="stylesheet">
+        <link href="images-list.css" rel="stylesheet">
+        <script src="./jquery.js"></script>
+        <script src="./jquery-ui.min.js"></script>
+        <script src="./main.js"></script>
+        <title>HCI</title>
+    </head>
+    <body>
+        <div id="menu">
+            <div>
+                <a href="./index2.html" ><img src="./images/logo.png" style="float:left;margin-left:30px"></a>
+            </div>
+            <div id="navMain">
+                <ul>
+
+                    <li><a href="./index2.html" >Map</a></li>
+                    <li>    |   </li>
+                    <li><a href="./emergencycall.html" >Emergency Call</a></li>
+                    <li>    |   </li>
+                    <li><a href="contactme.html" >Contact Me</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div id="map_content">
+            <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+            <div id="map"></div>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlHOxaniZev5xpVq51hpEzN2n2gj7kbHs&libraries=places&callback=initAutocomplete"
+            async defer></script>
+        </div>
+        <div id="timeline_header">
+            Timeline
+        </div>
+        <div id="timeline">
+            <div id="show_list">
+            </div>
+        </div>
+
+        <div id="save_data" title="Add" style="display:none;width:95%" >
+            <textarea name="addr_map" id="addr_map" rows="10" placeholder="Description for emergency traffic." style="width:100%"></textarea>
+            <input type="file" id="pic_map" name="pic_map" style="width:95%" lang="en" multiple/>
+            <label for="pic_map" id="pic_map_btn">
+                <div id="filename">Choose a file</div>
+            </label>
+            <button id="del_pic_map_btn" style="display:none">&nbsp;</button>
+        </div>
+        <div id="show_image_map" style="display: none;">
+        </div>
+    </body>
+</html>
