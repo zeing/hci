@@ -1,0 +1,230 @@
+/* main HighLigh */
+#mainHighLight .wrapper { position:relative; width:960px; margin:0 auto; }
+#mainHighLight .fix-center { position:relative; margin:0; left:50%; height:100%; }
+#mainHighLight .fix-center img {  position:absolute; left:0; }
+.auto-scale img { height:100%; max-width:800%; }
+
+#hl-prefall .obj-img  { text-align:right; }
+
+#mainHighLight .container li.hl.hlPrefall { background-position:50% 50%; }
+#mainHighLight { position:relative; width:100%; height:100%; overflow:hidden; top:0px; left:0; z-index:0; min-height:600px; }
+#mainHighLight .container { position:relative; width:100%; height:100%; min-height:600px; }
+#mainHighLight .container ul { display:block; position:absolute; width:100%; height:100%; }
+#mainHighLight .container li.hl {
+	display:none;
+	position:absolute;
+	width:100%; height:100%;
+	opacity:0;
+	top: 0px; left: 0px;
+	color: transparent;
+	background-size: cover;
+	background-position: 50% 0;
+	z-index:0;
+	padding:115px 0 45px 0;
+	box-sizing:border-box;
+}
+
+#mainHighLight .container li.hl:last-child { display:block ; z-index:1; }
+
+#mainHighLight .pagination { position:fixed; bottom:0; left:50%; margin-bottom:60px; z-index:2; }
+#mainHighLight .pagination li { float:left; margin:1px 4px; }
+#mainHighLight .pagination li a{ 
+	display:block;
+	width:18px;
+	height:18px;http://theabythara.com/shop/?c_key=sale_1,collection_SPRING-2013&sortby=
+	-webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+	border-radius:15px;
+	font-size:14px;
+	font-style:italic;
+	color:#999;
+	line-height:18px;
+	text-align:center;
+	background:#fff;
+}
+#mainHighLight .pagination li.show a{ color:#fff; background:#999; }
+#mainHighLight .pagination li:hover a {text-decoration:none; }
+
+/* */
+#mainHighLight .detail { color:#363636; }
+#mainHighLight .detail  div.boxStyleCenter { width:750px; position:absolute; top:50%; margin-top:-200px; left:50%; margin-left:-375px; text-align:center; text-transform:uppercase;}
+#mainHighLight .detail  div.boxStyleCenter h3 { font-size:26px !important; font-family: 'museo500'; margin-bottom:45px;}
+#mainHighLight .detail  div.boxStyleCenter p {
+	padding-top:10px;
+	margin:0 22px;
+	font-family: 'museo';
+	font-size:16px;
+	text-transform:uppercase;
+}
+#mainHighLight .detail  div.boxStyleCenter img { max-width: 100%; height: auto; width: auto;}
+#mainHighLight .detail  div.boxStyleCenter .bttn { margin-top:25px;}
+#mainHighLight .detail  div.boxStyleCenter .bottom { margin:30px 0; }
+
+/* boxStyleCenter01 */
+#mainHighLight .detail  div.boxStyleCenter01 { width:450px; position:absolute; top:50%; margin-top:-175px; left:50%; margin-left:-620px; text-align:center; text-transform:uppercase;}#mainHighLight .detail  div.boxStyleCenter01 h2 { font-size:50px; font-family: 'museo500'; color:#555; text-transform:capitalize !important}
+#mainHighLight .detail  div.boxStyleCenter01 h3 {
+	padding:10px 0;
+	margin-top:10px;
+	font-size:32px !important;
+	text-transform:capitalize !important;
+	font-family: 'museo500';
+	margin-bottom:45px;
+	line-height:1.4em;
+	color:#555;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #928d86;
+	border-bottom-color: #928d86;
+}
+#mainHighLight .detail  div.boxStyleCenter01 p {
+	padding-top:20px;
+	margin:0 22px;
+	font-family: 'museo';
+	font-size:12px;
+	text-transform:uppercase;
+}
+#mainHighLight .detail  div.boxStyleCenter01 .obj-img { position:absolute; left:50%; top:0; margin-left:400px;}
+#mainHighLight .detail  div.boxStyleCenter01 .bttn { margin-top:45px;}
+#mainHighLight .detail  div.boxStyleCenter01 .bottom { margin:30px 0}
+
+/* boxStyleCenter02 */
+#mainHighLight .detail  div.boxStyleCenter02 { width:820px; position:absolute; top:50%; margin-top:-180px; left:50%; margin-left:-290px; text-align:center; text-transform:uppercase}
+#mainHighLight .detail  div.boxStyleCenter02 h1 { font-size:75px; color:#555; text-transform:capitalize} 
+#mainHighLight .detail  div.boxStyleCenter02 h2 { font-size:50px; color:#555; text-transform:capitalize; margin-top:10px;}
+#mainHighLight .detail  div.boxStyleCenter02 h3 { font-size:26px !important; font-family: 'museo500'; margin-bottom:45px}
+#mainHighLight .detail  div.boxStyleCenter02 p {
+	font-family: 'museo';
+	color:#555;
+	font-size:12px;
+	text-transform:uppercase;
+}
+#mainHighLight .detail  div.boxStyleCenter02 img { max-width: 100%; height: auto; width: auto;}
+#mainHighLight .detail  div.boxStyleCenter02 .bttn {
+	display:inline-block;
+	padding-top:30px;
+	margin-top:25px;
+	margin-bottom:10px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #555;
+}
+#mainHighLight .detail  div.boxStyleCenter02 .bottom { margin:30px 0; }
+
+/* boxStyleCenter03 */
+#mainHighLight .detail  div.boxStyleCenter03 { text-align:center}
+
+
+/* Bg Hilgiht */
+.bgSale { background:url(../common/img/hilight/bg-sale.jpg) no-repeat;}
+.bgBeauty { background:#e4e5e8}
+.bgDolly { background: url(../common/img/hilight/bg-dolly.jpg) center no-repeat;}
+.bgDivavavoom { background:#f3f2f1;}
+.bgTHE { background:#FFF url(../common/img/hilight/bg-T.H.E.jpg) center no-repeat;}
+.bgPrefall2014 { background:#b2afaa url(../common/img/hilight/bg-Prefall2014.jpg) center no-repeat;}
+.bgWinter2014 { background:#dbdbdb url(../common/img/hilight/bg-winter2014.jpg) center no-repeat;}
+.hlPrefall { background:url(../common/img/hilight/hl-prefall.jpg) no-repeat}
+.hlButterfly { background:url(../common/img/hilight/hl-butterfly.jpg) no-repeat;}
+.hlNewin { background:url(../common/img/hilight/hl-new-in.jpg) no-repeat;}
+.hlNewarrivals{ background:url(../common/img/hilight-08.jpg) no-repeat;}
+.bg-video{ /*background:url(../common/img/hilight/2015/splash.jpg) no-repeat;*/ position: relative;}
+
+.easyhtml5video video{
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background: url('../video/THEA.jpg') no-repeat;
+	background-size: cover;
+}
+.linkTo-panel {
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	left: 0;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 1000;
+}
+.linkTo-panel a{
+	margin:0 20px;
+}
+
+/* Highlight 2015 */
+.bg-holiday2015 { background: #fff;}
+.bg-spring2015 { background: url(../common/img/hilight/2015/bg-spring2015.jpg) center no-repeat;}
+.bg-limited-edition { background: url(../common/img/hilight/2015/limited-edition-bg.jpg) center no-repeat;}
+.bg-prefall2015 { background: #efeeee url(../common/img/hilight/2015/prefall-bg.jpg) center no-repeat;}
+.bg-biggestsale { background-color: #ff6d6d;}
+.bg-christmas2015 { background: url(../common/img/hilight/2015/christmas-gift-bg.jpg) center no-repeat;}
+
+/* Highlight 2016 */
+.bg-holiday2016 { background: url(../common/img/hilight/2016/holiday-bg.jpg) center no-repeat;}
+.bg-holiday-whitewashed { background: url(../common/img/hilight/2016/holiday-whitewashed.jpg) center no-repeat;}
+.bg-valentine { background: url(../common/img/hilight/2016/valentine-bg.jpg) center no-repeat;}
+.bg-spring2016 { background: url(../common/img/hilight/2016/spring-bg.jpg) center no-repeat;}
+
+
+
+/* CSS Button */
+a.btn-shopnow { font-family: 'museo'; font-size:24px; background:#555; color:#FFF; padding:8px 15px;}
+a.btn-shopnow:hover { background:#333; text-decoration:none;}
+
+a.bttnButterfly { display:block; width:307px; line-height:1.8em; font-family: 'museo'; font-size:45px; color:#FFF; background: url(../common/img/hilight/bg-btn-butterfly.jpg) no-repeat;}
+a.bttnButterfly:hover { text-decoration:none;}
+
+@media screen and (min-width: 1800px){	
+    .bg-fall2015 .auto-scale img { max-width: inherit; width: 100%;}
+}
+
+@media screen and (max-width: 1024px){	
+
+	#mainHighLight .detail  div.boxStyleCenter01 { width:320px; margin-left:-480px; margin-top:-145px;}
+	#mainHighLight .detail  div.boxStyleCenter01 h2 { font-size:38px !important}
+	#mainHighLight .detail  div.boxStyleCenter01 h3 { font-size:22px !important;}
+		
+}
+
+@media screen and (max-width: 960px){	
+
+	#mainHighLight .detail  div.boxStyleCenter01 { width:320px; margin-left:-460px;}
+	#mainHighLight .detail  div.boxStyleCenter01 h2 { font-size:38px !important}
+	#mainHighLight .detail  div.boxStyleCenter01 h3 { font-size:22px !important;}
+	.wrapper { width:100%; }
+}
+
+@media screen and (max-width : 768px){
+	
+	#mainHighLight .detail  div.boxStyleCenter h3 { font-size:18px !important; font-family: 'museo500'; margin-bottom:45px;}
+	#mainHighLight .detail  div.boxStyleCenter p { font-size:12px;}
+	#mainHighLight .detail  div.boxStyleCenter02 h1 { font-size:50px;}
+	
+	#mainHighLight .detail div.boxStyleCenter01 { width:300px; top:50%; margin-top:-200px; margin-left:-340px;}
+	#mainHighLight .detail div.boxStyleCenter01 img { width:60%;}
+	
+	.hlPrefall {background-size: auto 300px; background-position:30% 50% !important;}
+	.hlButterfly { background-size: auto 300px; background-position: 50% 50% !important;}
+  
+
+}
+
+@media screen and ( max-width:600px ) {
+	
+	.hlNewin { background:url(../common/img/hilight/hl-new-in.jpg) no-repeat;}
+	#mainHighLight .detail  div.boxStyleCenter02 { width:100%; left:0; margin-left: auto; margin-right:auto;}
+	#mainHighLight .detail  div.boxStyleCenter02 h1 { font-size:35px;}
+	#mainHighLight .detail  div.boxStyleCenter02 h2 { font-size:25px;}
+	a.bttnButterfly { width:240px; font-size:30px; line-height:2em;}
+	
+	/* HlButterfly */
+	.hlButterfly { background-size: auto 300px; background-position:60% bottom !important;}
+	
+	
+}
+@media screen and (max-width:480px){
+	
+	
+}
